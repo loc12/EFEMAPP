@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Font/ZenKakuGothicNew-Light.ttf</file>
+        <file>Font/ZenKakuGothicNew-Medium.ttf</file>
+        <file>Font/ZenKakuGothicNew-Regular.ttf</file>
+        <file>Font/Roboto-Black.ttf</file>
+        <file>Font/Roboto-BlackItalic.ttf</file>
+        <file>Font/Roboto-Bold.ttf</file>
+        <file>Font/Roboto-BoldItalic.ttf</file>
+        <file>Font/Roboto-Italic.ttf</file>
+        <file>Font/Roboto-Light.ttf</file>
+        <file>Font/Roboto-LightItalic.ttf</file>
+        <file>Font/Roboto-Medium.ttf</file>
+        <file>Font/Roboto-MediumItalic.ttf</file>
+        <file>Font/Roboto-Regular.ttf</file>
+        <file>Font/Roboto-Thin.ttf</file>
+        <file>Font/Roboto-ThinItalic.ttf</file>
+    </qresource>
+</RCC>

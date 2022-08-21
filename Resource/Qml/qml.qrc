@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AlignerStage.qml</file>
+        <file>AutoRunScreen.qml</file>
+        <file>Cassette.qml</file>
+        <file>Main.qml</file>
+        <file>Manipulator.qml</file>
+        <file>RobotArm.qml</file>
+        <file>WaferStage.qml</file>
+        <file>LoadPort.qml</file>
+        <file>HeaderLog.qml</file>
+        <file>Footer.qml</file>
+        <file>SettingScreen.qml</file>
+        <file>Common/Button.qml</file>
+        <file>Common/CellText.qml</file>
+        <file>Common/Button1State.qml</file>
+        <file>LPCommandScreen.qml</file>
+        <file>Common/GroupBoxCustom.qml</file>
+        <file>Common/RadioButtonCustom.qml</file>
+        <file>Common/ComboBoxCustom.qml</file>
+        <file>../Images/down-arrow.png</file>
+        <file>Common/TextEdit.qml</file>
+        <file>CommandScreen.qml</file>
+        <file>PanelRightCommandScreen.qml</file>
+        <file>RobotCommandScreen.qml</file>
+        <file>RFIDCommandScreen.qml</file>
+        <file>Common/RadioButtonVerCustom.qml</file>
+        <file>../Images/WaferIcon.ico</file>
+        <file>LPStateSettingScreen.qml</file>
+    </qresource>
+</RCC>

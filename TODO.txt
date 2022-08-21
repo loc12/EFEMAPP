@@ -1,0 +1,3 @@
+1. Add the setting screen.			--> Done
+2. Modify the thread creation.
+3. Add screen for setting para of each command.	--> Inprogress

@@ -1,0 +1,12 @@
+QTimer timer;
+timer.setSingleShot(true);
+QEventLoop loop;
+connect( sslSocket, &QSslSocket::encrypted, &loop, &QEventLoop::quit );
+connect( &timer, &QTimer::timeout, &loop, &QEventLoop::quit );
+timer.start(msTimeout);
+loop.exec();
+
+if(timer.isActive())
+    qDebug("encrypted");
+else
+    qDebug("timeout");

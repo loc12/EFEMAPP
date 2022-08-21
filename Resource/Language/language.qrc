@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>SettingLanguage_vi.ts</file>
+        <file>SettingLanguage_kr.ts</file>
+        <file>SettingLanguage_cn.ts</file>
+        <file>SettingLanguage_jp.ts</file>
+        <file>SettingLanguage_en.ts</file>
+        <file>SettingLanguage_vi.qm</file>
+        <file>SettingLanguage_kr.qm</file>
+        <file>SettingLanguage_cn.qm</file>
+        <file>SettingLanguage_jp.qm</file>
+        <file>SettingLanguage_en.qm</file>
+    </qresource>
+</RCC>
