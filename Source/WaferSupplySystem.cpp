@@ -85,6 +85,7 @@ void CWaferSupplySystem::OnChangedScreen()
     QObject *lpCommandScreen = m_pEngine->rootObjects().first()->findChild<QObject*>("lpCommandScreen");
     if(lpCommandScreen){
         QObject::connect(lpCommandScreen, SIGNAL(sendLPEvent(QString)), this, SLOT(OnSendLPEvent(QString)));
+
         QObject::connect(lpCommandScreen, SIGNAL(setAllSlotStatus(int)), this, SLOT(OnChangeAllSlotStatus(int)));
         QObject::connect(lpCommandScreen, SIGNAL(setSlotStatus(int, int)), this, SLOT(OnChangeSlotStatus(int, int)));
         QObject::connect(lpCommandScreen, SIGNAL(changeWaferSize(int)), this, SLOT(OnChangeWaferSize(int)));
